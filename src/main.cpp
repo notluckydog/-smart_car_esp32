@@ -139,15 +139,15 @@ void loop() {
 
   
   
-  if (Serial.available()) {
+  /*if (Serial.available()) {
     SerialBT.write(Serial.read());
   }
-  
-  //motor.move_forward();
-  //Serial.println("main start ");
+  */
+  motor.move_forward();
+  Serial.println("main start ");
   delay(1000);
   
-  if (SerialBT.available()) {
+  /*if (SerialBT.available()) {
     Serial.write(SerialBT.read());
     Bt_CHAR=SerialBT.read();
     Serial.println("the keyvalue is:");
@@ -155,7 +155,7 @@ void loop() {
     if(SerialBT.read()== *"1") motor.move_forward();
     if(SerialBT.read()== *"2") motor.move_back();
     
-  }
+  }*/
  
   
   /*u8g2.clearBuffer();					// clear the internal memory
