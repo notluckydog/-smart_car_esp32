@@ -1,0 +1,17 @@
+//因为如果需要使用swich else 语句，是不能够使用string作为参数的，所以为了简
+，所以采用键值的方式，
+
+BT_UP: 1
+BT_DOWM:2
+BT_LEFT:3
+BT_RIGHT:4
+BT_LS:5
+
+BT_Y:6
+BT_B:7
+BT_A:8
+BT_X:9
+BT_RS:10
+
+BT_START:11
+BT_STOP:12
